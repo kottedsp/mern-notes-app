@@ -1,5 +1,11 @@
+// import axios from "axios"
+
+// export default axios.create({
+//   baseURL: "http://127.0.0.1:3001/api"
+// })
+
 import axios from "axios"
 
 export default axios.create({
-  baseURL: "http://127.0.0.1:3001/api"
+  baseURL: "https://mern-notes-backend-awa0.onrender.com/api"
 })
